@@ -1,0 +1,53 @@
+
+body{
+    background: radial-gradient(circle at 10px 10px, 
+    #062c0c42 1px, transparent 2px) 1px 1px / 20px 20px
+
+}
+
+.title {
+    position: relative;
+    display: flex;
+    justify-content: left;
+    color: #1f4215;
+    margin-left: 50px;
+    flex-direction: column;
+    align-content: left ;
+    font-size: 1.25rem;
+}
+
+.title h2 {margin-top: -15px;}
+
+
+.plan-features{ 
+list-style-type:none; color: #2f5724;
+text-align: left;
+padding-left: 50px; 
+text-align: justify;
+font-size: 1.3rem;
+}
+
+.plan-features > p > span
+{
+    text-decoration: underline;
+    color: #1f4215;
+    font-weight: bold;
+}
+
+.plan-features >li> span
+{
+    text-decoration: underline ;
+    color: #1f4215;
+    font-weight: bold;
+
+}
+
+.main{       
+border-radius: 10px; 
+min-width: 250px;
+max-width: 90%;
+height: 100vh ;
+border:  #ec7525 ;
+padding: 1rem;
+margin:1rem;
+}
